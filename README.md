@@ -1,5 +1,8 @@
 # Copa GC
 
+## Como Executar
+Para rodar o projeto, compile as classes e execute o Main. (Instrucoes do Integrante 2)
+
 ## Estrutura de Pacotes
 
 O sistema está organizado na seguinte estrutura de diretórios e classes:
