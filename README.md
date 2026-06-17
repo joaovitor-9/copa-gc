@@ -1,1 +1,1 @@
-"# Copa GC" 
+"# Copa GC"
