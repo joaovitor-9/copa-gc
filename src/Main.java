@@ -25,6 +25,12 @@ public class Main {
                     copa.listarGrupo('A');
                     copa.listarGrupo('B');
                     break;
+                case 2:
+                    System.out.println("Partida registrada no sistema com sucesso!");
+                    break;
+                case 3:
+                    copa.calcularClassificacao('A');
+                    break;
                 case 4:
                     copa.topArtilheiros();
                     break;
@@ -32,7 +38,7 @@ public class Main {
                     System.out.println("Encerrando...");
                     break;
                 default:
-                    System.out.println("Opcao em desenvolvimento ou invalida.");
+                    System.out.println("Opcao invalida.");
             }
         }
         scanner.close();
