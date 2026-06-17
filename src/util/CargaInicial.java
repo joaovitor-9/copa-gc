@@ -8,16 +8,16 @@ public class CargaInicial {
         Selecao bra = new Selecao("Brasil", 'A', "BRA");
         Selecao arg = new Selecao("Argentina", 'A', "ARG");
         Selecao fra = new Selecao("Franca", 'A', "FRA");
-        Selecao ale = new Selecao("Espanha", 'A', "ESP");
+        Selecao esp = new Selecao("Espanha", 'A', "ESP");
 
-        Selecao jap = new Selecao("Holanda", 'B', "HOL");
-        Selecao sen = new Selecao("Inglaterra", 'B', "ING");
-        Selecao can = new Selecao("Alemanha", 'B', "ALE");
-        Selecao aus = new Selecao("Portugal", 'B', "POR");
+        Selecao hol = new Selecao("Holanda", 'B', "HOL");
+        Selecao ing = new Selecao("Inglaterra", 'B', "ING");
+        Selecao ale = new Selecao("Alemanha", 'B', "ALE");
+        Selecao por = new Selecao("Portugal", 'B', "POR");
 
         copa.adicionarSelecao(bra); copa.adicionarSelecao(arg);
-        copa.adicionarSelecao(fra); copa.adicionarSelecao(ale);
-        copa.adicionarSelecao(jap); copa.adicionarSelecao(sen);
-        copa.adicionarSelecao(can); copa.adicionarSelecao(aus);
+        copa.adicionarSelecao(fra); copa.adicionarSelecao(esp);
+        copa.adicionarSelecao(hol); copa.adicionarSelecao(ale);
+        copa.adicionarSelecao(ing); copa.adicionarSelecao(por);
     }
 }
