@@ -24,5 +24,10 @@ public class CargaInicial {
         copa.registrarPartida(fra, esp, 1, 1);
         copa.registrarPartida(hol, ale, 2, 0);
         copa.registrarPartida(ing, por, 1, 0);
+
+        copa.registrarArtilheiro("Yuri Alberto (BRA) - 20 gols");
+        copa.registrarArtilheiro("Mbappe (FRA) - 8 gol");
+        copa.registrarArtilheiro("Messi (ARG) - 9 gols");
+        copa.registrarArtilheiro("Depay (HOL) - 19 gols");
     }
 }
