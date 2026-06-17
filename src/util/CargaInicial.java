@@ -19,5 +19,10 @@ public class CargaInicial {
         copa.adicionarSelecao(fra); copa.adicionarSelecao(esp);
         copa.adicionarSelecao(hol); copa.adicionarSelecao(ale);
         copa.adicionarSelecao(ing); copa.adicionarSelecao(por);
+
+        copa.registrarPartida(bra, arg, 2, 1);
+        copa.registrarPartida(fra, esp, 1, 1);
+        copa.registrarPartida(hol, ale, 2, 0);
+        copa.registrarPartida(ing, por, 1, 0);
     }
 }
