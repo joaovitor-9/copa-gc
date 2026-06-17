@@ -1,7 +1,11 @@
+import service.Copa;
+import util.CargaInicial;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Copa copa = new Copa();
+        CargaInicial.popular(copa);
         Scanner scanner = new Scanner(System.in);
         int opcao = -1;
 
@@ -16,8 +20,19 @@ public class Main {
 
             opcao = scanner.nextInt();
 
-            if (opcao == 0) {
-                System.out.println("Encerrando...");
+            switch (opcao) {
+                case 1:
+                    copa.listarGrupo('A');
+                    copa.listarGrupo('B');
+                    break;
+                case 4:
+                    copa.topArtilheiros();
+                    break;
+                case 0:
+                    System.out.println("Encerrando...");
+                    break;
+                default:
+                    System.out.println("Opcao em desenvolvimento ou invalida.");
             }
         }
         scanner.close();
