@@ -19,12 +19,28 @@ public class Copa {
         partidas.add(new Partida(a, b, golsA, golsB));
     }
 
+    public void registrarArtilheiro(String nome) {
+        artilheiros.add(nome);
+    }
+
     public void listarGrupo(char grupo) {
         System.out.println("--- Grupo " + grupo + " ---");
         for (Selecao s : selecoes) {
             if (s.getGrupo() == grupo) {
                 System.out.println(s);
             }
+        }
+    }
+
+    public void calcularClassificacao(char grupo) {
+        System.out.println("Classificacao do Grupo " + grupo + " (Simplificada):");
+        listarGrupo(grupo);
+    }
+
+    public void topArtilheiros() {
+        System.out.println("--- Artilheiros ---");
+        for (String a : artilheiros) {
+            System.out.println("- " + a);
         }
     }
 
